@@ -66,6 +66,37 @@ a {
   color: #fff;
 }
 
+.m-auto {
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 7px 15px;
+  
+  font-weight: 300;
+  font-size: 90%;
+
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-default {
+  border: 1px solid #323643;
+  border-radius: 3px;
+  background-color: #323643;
+  color: #fff;
+}
+
+.btn-default:hover {
+  background-color: #1c1e26;
+  border-color: #1c1e26;
+}
+
+.btn-full {
+  width: 100%;
+  margin-top: 15px;
+}
+
 /* ----------------------------- */
 /* HEADER SECTION */
 /* ----------------------------- */
@@ -142,6 +173,51 @@ header {
   background-color: #eee;
 }
 
+
+/* ----------------------------- */
+/* MAIN CONTENT SECTION */
+/* ----------------------------- */
+.main-content {
+  padding: 30px 15px;
+}
+
+/* ----------------------------- */
+/* LOGIN REGISTER SECTION */
+/* ----------------------------- */
+.form-container {
+  width: 400px;
+}
+
+.form-container label,
+.form-container input {
+  display: block;
+  margin: 10px 0;
+}
+
+.form-container label {
+  font-weight: bolder;
+}
+
+.form-container input {
+  font-size: 90%;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container textarea {
+  width: 100%;
+  padding: 7px;
+
+  font-weight: 300;
+
+  border: 1px solid #888;
+  background-color: #fff;
+  color: #323643;
+}
+/* ----------------------------- */
+/* FOOTER SECTION */
+/* ----------------------------- */
 footer {
   padding: 20px;
   margin-top: 30px;
